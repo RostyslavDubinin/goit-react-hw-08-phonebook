@@ -1,0 +1,31 @@
+.list {
+  list-style: square;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.name {
+  margin-right: 10px;
+}
+
+.number {
+  color: black;
+  margin-right: 10px;
+  font-size: 0.9em;
+}
+
+.listItem:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.button {
+  cursor: pointer;
+  background-color: gray;
+  color: #ffffff;
+}
+
+.button:hover {
+  background-color: rgb(104, 166, 218);
+  color: #ffffff;
+  border: 1px solid rgb(104, 166, 218);
+}
